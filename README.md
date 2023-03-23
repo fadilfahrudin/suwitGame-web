@@ -13,7 +13,5 @@ This is a simple Rock Paper Scissors game created using basic HTML, CSS, and Jav
 -   Elephant beats human :elephant:
 -   Humant beats Ant :man:
 
-4.  The score will be updated every time you or the computer wins.
-
 ## Noteds for this version V1.0
 This game has no points tally yet. and for the calculation of points will be added in the next version.:blush:
