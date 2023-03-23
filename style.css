@@ -16,7 +16,7 @@ body{
 
 .container{
     position: relative;
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     width: 390px;
     height: 100%;
     padding: 23px 20px;
