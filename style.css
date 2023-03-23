@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCB35;
+}
+
+.container{
+    position: relative;
+    background-image: url(/img/bg.jpg);
+    width: 390px;
+    height: 100%;
+    padding: 23px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+    box-shadow: 0 60px 70px rgba(0, 0, 0, 0.56);
+}
+.radial-bg{
+    background: radial-gradient(55.72% 60.31% at 50% 47.69%, #000000 0%, #000000 11.67%, #000000 37.83%, rgba(0, 0, 0, 0) 100%);
+}
+
+section#komputer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper{
+    position: relative;
+    width: 156px;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainCard{
+    right: auto;
+    left: auto;
+    z-index: 1;
+    background-color: aliceblue;
+    border: 5px solid #FFCB35;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.56);
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: absolute;
+    width: 72px;
+    height: 82px;
+    border-radius: 5px;
+}
+
+.cardLeft{
+    transform: rotate(-17.37deg);
+    background-color: #FFCB35;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.56);
+    top: 10px;
+    left: 0;
+}
+.cardRight{
+    transform: rotate(17.37deg);
+    background-color: #FFCB35;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.56);
+    top: 10px;
+    right: 0;
+}
+
+.card-wrapper:hover .cardLeft{
+    transform: rotate(0);
+    top: 10px;
+    left: 25%;
+    transition: 0.6s ease-in-out;
+}
+
+.card-wrapper:hover .cardRight{
+    transform: rotate(0);
+    top: 10px;
+    right: 25%;
+    transition: 0.6s ease-in-out;
+}
+
+.card-wrapper:hover .mainCard{
+    border: 5px solid #87680b;
+    transition: 0.8s ease-in;
+}
+
+.active{
+    border: 5px solid #87680b;
+}
+
+.mainCard img{
+    position: absolute;
+    top: -20px;
+}
+
+.mainCard:hover img{
+    top: -30px;
+    transition: 0.8s ease-out;
+}
+
+.card-wrapper p {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    display: block;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+section#hasil{
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+
+section#hasil h2{
+    text-align: center;
+    color: #ffff;
+}
+
+section#hasil .sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    filter: drop-shadow(0px 12px 5px #AA8A2F);
+}
+section#hasil .innerSign{
+    width: 60px;
+    height: 50px;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-color: #FFCB35;
+    transform: rotate(-180deg);
+}
+
+section#pemain {
+    position: relative;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+section#pemain ul li{
+    list-style: none;
+}
+
+li.two {
+    position: absolute;
+    left: 0;
+}
+
+li.three{
+    position: absolute;
+    right: 0;
+}

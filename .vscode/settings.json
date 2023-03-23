@@ -1,0 +1,10 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "prettier.jsxSingleQuote": false,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.suggest.completeFunctionCalls": true
+}
