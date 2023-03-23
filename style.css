@@ -26,7 +26,7 @@ body{
     box-shadow: 0 60px 70px rgba(0, 0, 0, 0.56);
 }
 .radial-bg{
-    background: radial-gradient(55.72% 60.31% at 50% 47.69%, #000000 0%, #000000 11.67%, #000000 37.83%, rgba(0, 0, 0, 0) 100%);
+    background: radial-gradient(55% 45% at 50% 50%, #00000052 0%, #000000 11.67%, #000000cc 37.83%, rgba(0, 0, 0, 0) 100%);
 }
 
 section#komputer{
